@@ -1,0 +1,209 @@
+Below is a paste-ready **single-page HTML landing page** for GitHub Pages or similar. I used the business plan for service lines, management, location, and positioning. 
+
+Replace the placeholder contact details before publishing.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>D.A. & Associates Consulting and Management Services LLC</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #1f2933;
+      background: #f7f8fa;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #0f172a;
+      color: white;
+      padding: 70px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.1rem;
+      letter-spacing: 0.5px;
+    }
+
+    header p {
+      max-width: 760px;
+      margin: 20px auto 0;
+      font-size: 1.1rem;
+      color: #dbeafe;
+    }
+
+    .container {
+      max-width: 1050px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 14px;
+      padding: 30px;
+      margin-bottom: 25px;
+      box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+    }
+
+    h2 {
+      margin-top: 0;
+      color: #0f172a;
+      font-size: 1.5rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+    }
+
+    .service {
+      background: #f1f5f9;
+      padding: 22px;
+      border-radius: 12px;
+    }
+
+    .service h3 {
+      margin-top: 0;
+      color: #1e3a8a;
+    }
+
+    .details p {
+      margin: 8px 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: #64748b;
+      font-size: 0.9rem;
+    }
+
+    a {
+      color: #1d4ed8;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>D.A. & Associates Consulting and Management Services LLC</h1>
+  <p>
+    A Florida-based consulting and management services company providing practical business,
+    operational, and project support for early-stage and growth-focused enterprises.
+  </p>
+</header>
+
+<main class="container">
+
+  <section class="card">
+    <h2>Company Overview</h2>
+    <p>
+      D.A. & Associates Consulting and Management Services LLC is a Florida limited liability
+      company established to provide management consulting, business advisory, project support,
+      and operational development services to clients in Florida and across the United States.
+    </p>
+    <p>
+      The company supports businesses that require experienced management input, practical
+      systems development, commercial structuring, and hands-on execution support during
+      formation, growth, restructuring, or expansion phases.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>Business Activities</h2>
+    <div class="grid">
+      <div class="service">
+        <h3>Management Consulting</h3>
+        <p>
+          Interim and long-term management support for early-stage and developing businesses,
+          including operational planning, process improvement, business development, and
+          management oversight.
+        </p>
+      </div>
+
+      <div class="service">
+        <h3>Business Systems & Frameworks</h3>
+        <p>
+          Development of practical commercial, operational, reporting, and management frameworks
+          to help businesses move from concept stage into structured operating companies.
+        </p>
+      </div>
+
+      <div class="service">
+        <h3>Aviation & Asset-Related Consulting</h3>
+        <p>
+          Specialist consulting support for aviation, asset management, leasing, and related
+          business models, including early-stage business engineering and operational planning.
+        </p>
+      </div>
+
+      <div class="service">
+        <h3>Project & Commercial Support</h3>
+        <p>
+          Support for client projects including planning, coordination, contractor engagement,
+          financial modelling, documentation, and execution support.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>Management</h2>
+    <p>
+      The company is managed by <strong>David Abrams</strong>, Managing Member.
+    </p>
+    <p>
+      David Abrams brings extensive experience in business management, infrastructure-related
+      services, project coordination, and consulting through his longstanding business activities
+      in Canada and related commercial ventures.
+    </p>
+  </section>
+
+  <section class="card details">
+    <h2>Company Details</h2>
+    <p><strong>Legal Name:</strong> D.A. & Associates Consulting and Management Services LLC</p>
+    <p><strong>Entity Type:</strong> Florida Limited Liability Company</p>
+    <p><strong>Managing Member:</strong> David Abrams</p>
+    <p><strong>Principal Business Location:</strong> Santa Rosa Beach, Florida, USA</p>
+    <p><strong>Business Category:</strong> Consulting, Management Services, Business Advisory, Project Support</p>
+  </section>
+
+  <section class="card">
+    <h2>Contact</h2>
+    <p>
+      For business enquiries, banking verification, or administrative correspondence, please contact:
+    </p>
+    <p>
+      <strong>D.A. & Associates Consulting and Management Services LLC</strong><br>
+      Attn: David Abrams, Managing Member<br>
+      Email: <a href="mailto:INSERT-EMAIL-HERE">INSERT-EMAIL-HERE</a><br>
+      Phone: INSERT-PHONE-HERE<br>
+      Address: INSERT-BUSINESS-ADDRESS-HERE
+    </p>
+  </section>
+
+</main>
+
+<footer>
+  © 2026 D.A. & Associates Consulting and Management Services LLC. All rights reserved.
+</footer>
+
+</body>
+</html>
+```
+
+Use this as the site’s `index.html`.
